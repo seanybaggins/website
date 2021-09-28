@@ -9,8 +9,8 @@ author = "Sean Link"
 
 {{< rawhtml >}}
 <div class="row" style="text-align:center">
-  <img src="/images/Sean_Link_Sailing_Edit_2.jpg" alt="Sean Link Sailing" width="35%">
-  <img src="/images/Sean_Link_Climbing_Edit_2.jpg" alt="Sean Link Climbing" width="35%">
+  <img src="/website/images/Sean_Link_Sailing_Edit_2.jpg" alt="Sean Link Sailing" width="35%">
+  <img src="/website/images/Sean_Link_Climbing_Edit_2.jpg" alt="Sean Link Climbing" width="35%">
 </div>
 {{< /rawhtml >}}
 

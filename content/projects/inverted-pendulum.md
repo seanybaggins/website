@@ -8,12 +8,12 @@ tags = [
 ]
 +++
 
-One of the coolest things I did during my education was invert a pendulum. Here
-is video of the final result.
+One of the coolest things I did during my education was implementing an invert a
+pendulum. See the following video.
 
-
+[video](https://www.youtube.com/embed/w2OGMYozBlk)
 {{< rawhtml >}}
-<iframe width="560px" height="315px" src="https://www.youtube.com/embed/f6LVaj4YtXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w2OGMYozBlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
@@ -29,14 +29,12 @@ is video of the final result.
 </iframe>
 {{< /rawhtml >}}
 
-
-
 {{< rawhtml >}}
-<iframe src=/projects/gains-derivation.html
-        height=13252.0px
+<iframe src=/website/gains-derivation.html
+        height=13269.0px
         width=100%
         style="border:none;overflow:hidden;"
-        scrolling="yes">
+        scrolling="no">
 </iframe>
 {{< /rawhtml >}}
 
