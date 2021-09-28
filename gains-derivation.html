@@ -13996,14 +13996,14 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Suppose we have a mass attached to a cart depicted in following diagram:</p>
-<p><img src="/images/system.png" alt="cart mass system" title="Titile"></p>
+<p><img src="/website/images/system.png" alt="cart mass system" title="Titile"></p>
 <p>We wish to control the system such that the $m2$ mass will remain in the upright and vertical position.
 To keep the $m2$ mass in the upright vertical position i.e. keeping $\theta = 0$, we will be applying some force $f(t)$ on the $m1$ mass in the horizontal direction. To determine the magnitude and direction of the force needed to keep the $m2$ mass balanced, we will be using a full state feedback controller.</p>
 <p>In order create a state feedback controller to balance our $m2$ mass, we must first come up with a mathematical model of our system, a.k.a the equations of motion (EOM). For this exercise, we opted to use <a href="https://en.wikipedia.org/wiki/Lagrangian_mechanics">Lagrangian mechanics</a> to derive our EOM.</p>
 <blockquote><p>Note: We could have derived the EOMs using Newton's 2nd law, but found the math to be much more simple 
 when using the Lagrangian.</p>
 </blockquote>
-<p>In order to use the Lagrangian, we must fully describe the kinetic and potential energies of the system. This is more easily achieved if we add a few position vectors to our system diagram: <img src="/images/system_with_vectors.png" alt="cart mass system with vectors"></p>
+<p>In order to use the Lagrangian, we must fully describe the kinetic and potential energies of the system. This is more easily achieved if we add a few position vectors to our system diagram: <img src="/website/images/system_with_vectors.png" alt="cart mass system with vectors"></p>
 <p>With the vectors $\vec{p_1}$ and $\vec{p_2}$ we can now describe the kinetic and potential energies as follows:</p>
 $$
 KE = \frac{1}{2} m_1 \lvert \dot {\vec p_1} \rvert ^2 + \frac{1}{2} m_2 \lvert \dot {\vec p_2} \rvert ^2 \\
@@ -14016,7 +14016,7 @@ PE = m_2 g l cos(\theta) \\
 $$<p>While the equation listed at $\eqref{keNotUseful}$ is very true, it is not very helpful. When we go to implement, we will not be able to directly measure or approximate $\vec p_2$ or $\dot{\vec p_2}$. We can however solve for $\vec p_2$ and $\dot{\vec p_2}$ in terms of other variables we can measure and approximate such as $\vec p_1$ and $\dot {\vec p_1}$.</p>
 <blockquote><p>Note: In the controls world, we typically call the variables that we can measure and/or calculate in real-time 'states'.</p>
 </blockquote>
-<p>Consider our system but while only looking at the following vectors: <img src="/images/system_vectors_only.png" alt="system with only vectors"></p>
+<p>Consider our system but while only looking at the following vectors: <img src="/website/images/system_vectors_only.png" alt="system with only vectors"></p>
 <p>We can say that
 $$
 \vec{p_2} = \vec{p_1} + \Delta \vec{p} \\
@@ -15099,9 +15099,9 @@ $\displaystyle \left[\begin{matrix}0\\0\\0\\0\end{matrix}\right]$
 <p>As seen in the figure above a pole is in the right half plane, meaning the system is inherently unstable. This makes sense, since the pendulum would not remain in the upright vertical position if we were not actively trying to balance the pendulum.</p>
 <p>The objective of our statespace controller should be to move the pole in the right half plane to the left half.</p>
 <p>In general, state feeback controllers take a plant as illustrated in the figure below:
-<img src="/images/plant.png" alt="open loop system"></p>
+<img src="/website/images/plant.png" alt="open loop system"></p>
 <p>The state is 'fed back' to the input while applying a individual gains <code>K</code> to each state variable. Applying these gains and feedback ultimately is what moves the poles of the overall system. A figure illustrating the state feedback controller being applied to the plant can be found below:
-<img src="/images/plant-with-controller.png" alt="closed loop system"></p>
+<img src="/website/images/plant-with-controller.png" alt="closed loop system"></p>
 <p>One question you may be asking yourself is how do we determine each of the gains for <code>K</code> such that the system's poles get moved to the left hand plane?</p>
 <p>Probably the best way to show how we determine the gains for <code>K</code> is through a little derivation.
 We will prove:</p>
@@ -15144,7 +15144,7 @@ $$</p>
 <li><a href="https://youtu.be/rfm0wQObxjk">https://youtu.be/rfm0wQObxjk</a></li>
 </ul>
 </blockquote>
-<p>Okay, we have proven that the state space representation our system can be converted into a transfer function and the poles of that transfer function are the eigenvalues of our $A$ matrix. Lets now look at applying feedback and how that affects the $A$ matrix of the closed-loop system. Looking back at our closed-loop model: <img src="/images/plant-with-controller.png" alt="closed-loop system"></p>
+<p>Okay, we have proven that the state space representation our system can be converted into a transfer function and the poles of that transfer function are the eigenvalues of our $A$ matrix. Lets now look at applying feedback and how that affects the $A$ matrix of the closed-loop system. Looking back at our closed-loop model: <img src="/website/images/plant-with-controller.png" alt="closed-loop system"></p>
 <p>Let's now substitute $u=r-K\vec x$ into our <strong>state equation</strong>:</p>
 $$
 \dot{\vec x} = A \vec x + B (r - K\vec x)
