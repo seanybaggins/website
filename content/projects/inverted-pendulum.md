@@ -12,9 +12,6 @@ One of the coolest things I did during my education was invert a pendulum. Here
 is video of the final result.
 
 
-
-
-
 {{< rawhtml >}}
 <iframe width="560px" height="315px" src="https://www.youtube.com/embed/f6LVaj4YtXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {{< /rawhtml >}}
@@ -35,7 +32,7 @@ is video of the final result.
 
 
 {{< rawhtml >}}
-<iframe src=/projects/gains-derivation.html
+<iframe src={{baseURL}}/projects/gains-derivation.html
         height=13252.0px
         width=100%
         style="border:none;overflow:hidden;"
