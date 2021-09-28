@@ -13,7 +13,6 @@ is video of the final result.
 
 
 
-{{< yt w7Ft2ymGmfc >}}
 
 
 {{< rawhtml >}}
