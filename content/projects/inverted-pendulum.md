@@ -32,11 +32,11 @@ is video of the final result.
 
 
 {{< rawhtml >}}
-<iframe src=projects/gains-derivation.html
+<iframe src=/projects/gains-derivation.html
         height=13252.0px
         width=100%
         style="border:none;overflow:hidden;"
-        scrolling="no">
+        scrolling="yes">
 </iframe>
 {{< /rawhtml >}}
 
