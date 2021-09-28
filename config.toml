@@ -1,4 +1,4 @@
-baseURL = "www.seangriffin.link/"
+baseURL = "www.seangriffin.link"
 title = "Sean Link"
 theme = "hugo-coder"
 languageCode = "en"
