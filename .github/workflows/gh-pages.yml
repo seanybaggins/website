@@ -20,9 +20,6 @@ jobs:
           hugo-version: '0.88.1'
           extended: true
 
-      - name: debug
-        run: ls -a
-
       - name: Build
         run: hugo --minify
 
