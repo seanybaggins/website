@@ -11,9 +11,13 @@ tags = [
 One of the coolest things I did during my education was implementing an invert a
 pendulum. See the following video.
 
-[video](https://www.youtube.com/embed/w2OGMYozBlk)
+[video](https://www.youtube-nocookie.com/embed/Xgd8EvhpkjQ)
+{{<youtube Xgd8EvhpkjQ>}}
+
+Hello
+
 {{< rawhtml >}}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w2OGMYozBlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Xgd8EvhpkjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {{< /rawhtml >}}
 
 {{< rawhtml >}}

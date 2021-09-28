@@ -1,4 +1,4 @@
-baseURL = "website/"
+baseURL = "https://seanybaggins.github.io/website/"
 title = "Sean Link"
 theme = "hugo-coder"
 languageCode = "en"
