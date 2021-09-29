@@ -8,30 +8,21 @@ tags = [
 ]
 +++
 
-One of the coolest things I did during my education was implementing an invert a
-pendulum. See the following video.
+One of the coolest things I did during my education was implement a controller
+for an inverted pendulum. See the following video.
 
-[video](https://www.youtube-nocookie.com/embed/Xgd8EvhpkjQ)
-{{<youtube Xgd8EvhpkjQ>}}
+{{<youtube w2OGMYozBlk>}}
 
-Hello
-
-{{< rawhtml >}}
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Xgd8EvhpkjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
-<iframe 
-    width="560px"
-    height="315px"
-    src="https://www.youtube.com/embed/w2OGMYozBlk"
-    title="YouTube video player" 
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
->
-</iframe>
-{{< /rawhtml >}}
+There was only one problem. While I implementd the controller to control
+the inverted pendulum, I did not derive the model. That was given to me by my
+instructor. Even though implementing the controller was cool, it was somewhat
+unsatisfying. After all, I really had no idea how the model was derived. It was a
+black box that I took for granted to be true and correct. In order to better
+understand this black box, I decided to sit down and derive the model of the
+inverted pendulum myself. And oh man, I now understand why my instructor decided
+to just give it to me. Below is my derivation for the model of the inverted
+pendulum. I tried to make the derivation as approachable as possible and link to
+other resouces when I felt appropriate. Enjoy.
 
 {{< rawhtml >}}
 <iframe src=/website/gains-derivation.html
