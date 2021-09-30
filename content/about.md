@@ -20,4 +20,4 @@ a job. For the last year and a half, I have been a software engineer at
 provide my expertise with Rust when needed. My dream job would be working on
 embedded systems remotely while using the Rust Programming Language. 
 
-I love learning, watersports, and long late night conversations.
+I love learning, watersports, and piano.
