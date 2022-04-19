@@ -114,13 +114,13 @@ icon = "fa fa-linkedin"
 weight = 4
 url = "https://www.linkedin.com/in/sean-link-b789a914b/"
 
-[[params.social]]
-name = "RSS"
-icon = "fa fa-rss"
-weight = 6
-url = "https://myhugosite.com/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+#[[params.social]]
+#name = "RSS"
+#icon = "fa fa-rss"
+#weight = 6
+#url = "https://myhugosite.com/index.xml"
+#rel = "alternate"
+#type = "application/rss+xml"
 
 [languages.en]
 languageName = ":uk:"
